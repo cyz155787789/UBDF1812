@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        /*body{*/
+        /*    margin: 0;*/
+        /*    padding: 0;*/
+        /*}*/
+        /*.one{*/
+        /*    background: #3b8de3;*/
+        /*    height: 40px;*/
+        /*}*/
+        /*.two a{*/
+        /*    float: left;*/
+        /*    margin: auto;*/
+        /*    padding: 0 20px;*/
+        /*    line-height: 40px;*/
+        /*    color: #ffffff;*/
+        /*    text-decoration: none;*/
+        /*}*/
+        /*.a a{*/
+        /*      float: left;*/
+        /*      padding-left: 50px;*/
+        /*  }*/
+        /*.b a{*/
+        /*    float: right;*/
+        /*}*/
+        body{
+            margin: 0;
+        }
+        .box{
+            width: 100%;
+            height: 40px;
+            background-color: #3b8de3;
+        }
+        .con{
+            width: 1180px;
+            height: 100%;
+            margin: auto;
+        }
+        .left{
+            float: left;
+            width: 690px;
+            height: 100%;
+        }
+        .right{
+            width: 240px;
+            height: 100%;
+            float: right;
+        }
+        a{
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .left a{
+            /*无论是块元素还是行元素 只要进行浮动 那么就能够一行显示 且设置宽高 同时忽略宽高*/
+
+            width: 20%;
+            height: 100%;
+        }
+        .right a{
+
+            width: 33.3%;
+            height: 100%;
+        }
+        .action{
+            background-color: white;
+            color: #5948ff;
+            border-top: 3px solid orange;
+        }
+        a:hover{
+            background-color: white;
+            color: #5948ff;
+            border-top: 3px solid orange;
+        }
+        .user{
+            background: url("img.png") no-repeat center -55px ;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="box">
+        <div class="con">
+            <div class="left">
+                <a href="" class="action">首页</a>
+                <a href="">国内机票</a>
+                <a href="">国际机票</a>
+                <a href="">明航咨询</a>
+                <a href="">明航问答</a>
+            </div>
+            <div class="right">
+                <a href="" class="user" >用户中心</a>
+                <a href="">注册</a>
+                <a href="">登录</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
